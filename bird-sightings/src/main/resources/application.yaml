@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: maroons
+    username: root
+    url: jdbc:mysql://localhost:3306/birds
+
+logging:
+  level:
+    root: warn
+    '[com.promineotech]': debug

@@ -1,0 +1,4 @@
+insert into bird_names(type_id, bird_name) values (22, 'American Robin');
+insert into locations(city, state) values ('Missoula', 'Montana');
+insert into users(username) values ('schwertfeger49');
+insert into sightings(bird_id, location_id, user_id, date_time) values (1, 1, 1, '2021-06-01 12:00:00');
